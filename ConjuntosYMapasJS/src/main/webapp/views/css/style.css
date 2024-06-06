@@ -1,0 +1,86 @@
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: thistle;
+    padding: 50px;
+    height: 400px;
+    flex-direction: column;
+}
+.contenedor1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: thistle;
+    padding: 50px;
+    height: 400px;
+}
+.contenedor2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: thistle;
+    padding: 50px;
+    height: auto;
+    flex-direction: column;
+}
+body{
+    background-color: #916e91;
+    font-family: Verdana;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton{
+    padding: 10px 20px;
+    background-color: #916e91;
+    color: thistle;
+    border-radius: 5px;
+}
+.boton:hover{
+    background-color: thistle;
+    color: #916e91;
+    cursor: pointer;
+}
+.derecha{
+    text-align: right;
+    padding-right: 20px;
+}
+.izquierda{
+    text-align: left;
+}
+.centrado{
+    text-align: center;
+}
+.cajaFlex{
+    display: flex;
+    margin: 10px 0;
+}
+.cajaFlex1{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    border: 1px solid #916e91;
+}
+.margen-arriba{
+    margin-top: 50px;
+}
+.boton-letra{
+    width: 20px;
+}
+#contadorFallos {
+    color: darkred;
+}
+#salir, #nuevaP{
+    display: none;
+}
+#tabla, th, td{
+    border: 2px dotted darkmagenta;
+    border-collapse: collapse;
+}
+#tabla,th {
+
+}
